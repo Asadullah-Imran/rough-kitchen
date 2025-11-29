@@ -29,7 +29,7 @@ function App() {
     <AuthProvider>
       <CartProvider>
         <LoginModalProvider>
-          <BrowserRouter>
+          <BrowserRouter basename="/rough-kitchen">
             <LoginModalWrapper />
             <Routes>
               <Route path={ROUTES.HOME} element={<Landing />} />
